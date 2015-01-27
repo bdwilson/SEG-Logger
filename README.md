@@ -31,6 +31,12 @@ from Source Code.
 [site_token](https://smartenergygroups.com/my_things/show_keys) from SEG to
 your app and select the energy meters.  
 
+Options
+-----------------
+If for some reason you want to run this as a scheduled job instead of when
+subscribed activity from your meter triggers this, review the Initialization
+subroutine to adjust how it is called.
+
 Bugs/Contact Info
 -----------------
 Bug me on Twitter at [@brianwilson](http://twitter.com/brianwilson) or email me [here](http://cronological.com/comment.php?ref=bubba).
