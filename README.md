@@ -1,8 +1,10 @@
 SmartThings SmartApp Energy Logger for SmartEnergyGroup (SEG)
 =======
 <br>
-Shell script-based MythTV User Job to transcode recordings to mp4, retrieve
-metatata, and update XBMC. This does not alter the MythTV content at all.
+SmartThings SmartApp to send energy meter data (kWh and watts) to
+www.smartenergygroups.com.  Testing with HEMv1 but will likely work with any
+device that supports EnergyMeter capabilities with SmartThings.
+
 Requirements
 ------------
 - SmartThings HUB
