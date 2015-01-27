@@ -21,15 +21,16 @@ replace all spaces with underscores and remove parenthesis!</b> For instance, if
 called "Panel 1 (Generator)" my node name in SEG would be Panel_1_Generator.
 This should create you a Power and Energy section.
 3. Edit both the Power and Energy sections, click Edit and change their stream
-names to "power" and "energy" respectively. <b>Make sure you check kilo option
-for energy.</b>
-4. Replease steps 2-3 for each EnergyMeter device you want to monitor.
-5. Now, add a [SmartApp](https://graph.api.smartthings.com/ide/apps) and do
-from Source Code.  
+names to "power" and "energy" respectively. <b>Make sure you add a calibration
+value of 1000.0 if your device sends energy usage in kWh!</b>.  Optionally, check kilo option
+for energy if you want the data to be reported in kWh instead of Wh.
+4. Repeat steps 2-3 for each EnergyMeter device you want to monitor.
+5. Now, add a [SmartApp](https://graph.api.smartthings.com/ide/apps) and do from Source Code.  
 6. Save and publish the app. 
 7. Go to your phone, +, add Smart App and add the
 [site_token](https://smartenergygroups.com/my_things/show_keys) from SEG to
-your app and select the energy meters.  
+your app and select the energy meters, or you can add your App to the devices
+from the IDE on the SmartThings website.  
 
 Options
 -----------------
