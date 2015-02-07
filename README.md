@@ -5,6 +5,11 @@ SmartThings SmartApp to send energy meter data (kWh and watts) to
 www.smartenergygroups.com.  Testing with HEMv1 but will likely work with any
 device that supports EnergyMeter capabilities with SmartThings.
 
+NOTE: I've not received inconsistent results with power measurement using my
+HEMv1 and SEG. I have contacted the maintainer of SEG, but he's not helped me
+resolve the issues.  If you're looking for reliable cost calculations, then
+PlotWatt is a better option.
+
 Requirements
 ------------
 - SmartThings HUB
@@ -21,9 +26,8 @@ replace all spaces with underscores and remove parenthesis!</b> For instance, if
 called "Panel 1 (Generator)" my node name in SEG would be Panel_1_Generator.
 This should create you a Power and Energy section.
 3. Edit both the Power and Energy sections, click Edit and change their stream
-names to "power" and "energy" respectively. <b>Make sure you add a calibration
-value of 1000.0 if your device sends energy usage in kWh!</b>.  Optionally, check kilo option
-for energy if you want the data to be reported in kWh instead of Wh.
+names to "power" and "energy" respectively. Check the kilo option if you want
+your data displayed in kWh.
 4. Repeat steps 2-3 for each EnergyMeter device you want to monitor.
 5. Now, add a [SmartApp](https://graph.api.smartthings.com/ide/apps) and do from Source Code.  
 6. Save and publish the app. 
