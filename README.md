@@ -9,7 +9,8 @@ device that supports EnergyMeter capabilities with SmartThings.
 HEMv1 and SEG. I have attempted to seek help from the SEG maintainer, but
 nothing has been resolved. If you want to help me resolve, you can start here:
 https://smartenergygroups.com/forums/10-The-Open-Grid/topics/352-Posting-kWH-to-the-API
-If you're looking for reliable cost calculations, then PlotWatt is a better
+If you're looking for reliable cost calculations, then
+[PlotWatt](https://github.com/bdwilson/PlotWatt-SmartThings-Logger) is a better
 option for now. </b>
 
 Requirements
