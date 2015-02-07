@@ -5,10 +5,12 @@ SmartThings SmartApp to send energy meter data (kWh and watts) to
 www.smartenergygroups.com.  Testing with HEMv1 but will likely work with any
 device that supports EnergyMeter capabilities with SmartThings.
 
-NOTE: I've not received inconsistent results with power measurement using my
-HEMv1 and SEG. I have contacted the maintainer of SEG, but he's not helped me
-resolve the issues.  If you're looking for reliable cost calculations, then
-PlotWatt is a better option.
+<b>NOTE: I've received inconsistent results with energy measurement (kWh) using my
+HEMv1 and SEG. I have attempted to seek help from the SEG maintainer, but
+nothing has been resolved. If you want to help me resolve, you can start here:
+https://smartenergygroups.com/forums/10-The-Open-Grid/topics/352-Posting-kWH-to-the-API
+If you're looking for reliable cost calculations, then PlotWatt is a better
+option for now. </b>
 
 Requirements
 ------------
